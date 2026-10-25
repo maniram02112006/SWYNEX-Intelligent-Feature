@@ -1,0 +1,26 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python cache and testing artifacts
+__pycache__/
+*.pyc
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Secrets (this project uses none, but never commit them)
+.env
+*.key
+secrets.toml
+.streamlit/secrets.toml
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Large raw archive data (model .keras is tracked)
+*.zip
